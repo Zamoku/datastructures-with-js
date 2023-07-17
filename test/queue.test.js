@@ -16,7 +16,7 @@ describe("Using a queue", function(){
 
     it("you should be able to instantiate an empty stack", function (){
         const queue = Queue();
-        assert.equal(undefined, queue.pop());
+        assert.equal(undefined, queue.dequeue());
     });
     
 })

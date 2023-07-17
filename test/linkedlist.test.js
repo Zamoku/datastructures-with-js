@@ -64,7 +64,7 @@ describe("Using a LinkedList", function(){
             animals.push(animal)
         });
 
-        assert.deepEquals(['giraffe', 'elephant', 'tiger'], animals);
+        assert.deepEqual(['giraffe', 'elephant', 'tiger'], animals);
 
     });
     
